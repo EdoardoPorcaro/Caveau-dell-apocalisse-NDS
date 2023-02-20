@@ -27,17 +27,28 @@ a {
     color: limegreen;
     text-decoration: none;
 }
-a:hover {
-    animation: spessore 1.5s infinite;
-}
+
+    a:hover {
+        animation: spessore 1.5s infinite;
+    }
+
 table a:hover {
     padding: 0;
     animation: none;
 }
+
 @keyframes spessore {
-    0% { letter-spacing: normal; }
-    50% { letter-spacing: 1px; }
-    100% { letter-spacing: normal; }
+    0% {
+        letter-spacing: normal;
+    }
+
+    50% {
+        letter-spacing: 1px;
+    }
+
+    100% {
+        letter-spacing: normal;
+    }
 }
 
 /* TABELLE */
@@ -45,13 +56,20 @@ table {
     margin: 0 auto;
     border-collapse: collapse;
 }
+
 .table {
     overflow-x: auto;
 }
+
 td {
     border-top: 1px solid limegreen;
     border-bottom: 1px solid limegreen;
     padding: 3px 10px;
+    white-space: nowrap;
+}
+
+table.titoli td:nth-child(3) {
+    white-space: normal;
 }
 
 /*  CLASSI PERSONALIZZATE */
@@ -67,14 +85,16 @@ td {
     border: 3px solid limegreen;
     padding: 75px;
     /* box-sizing: border-box; */
-    /* background-color: black; 
+/* background-color: black; 
 } */
 .menu {
     text-transform: uppercase;
 }
+
 .spazio {
     margin-top: 50px;
 }
+
 .mezzo-spazio {
     margin-top: 25px;
 }
