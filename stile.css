@@ -28,11 +28,22 @@ a {
     text-decoration: none;
 }
 
-    a:hover {
+    a:hover, a:focus-visible {
         animation: spessore 1.5s infinite;
     }
 
-table a:hover {
+a.non-pronto {
+    color: darkgreen;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+    a.non-pronto:hover, a.non-pronto:focus-visible {
+        animation: none;
+        cursor: not-allowed;
+    }
+
+table a:hover, table a:focus-visible {
     padding: 0;
     animation: none;
 }
@@ -57,7 +68,7 @@ table {
     border-collapse: collapse;
 }
 
-.table {
+.wrap-tabella {
     overflow-x: auto;
 }
 
@@ -70,12 +81,21 @@ td {
 
 table.titoli td:nth-child(3) {
     white-space: normal;
+    min-width: 200px;
+}
+table.changelog td:nth-child(3) {
+    white-space: normal;
+    min-width: 200px;
 }
 
 /*  CLASSI PERSONALIZZATE */
 @font-face {
     font-family: 'NDS';
     src: url('NDS.ttf');
+}
+@font-face {
+    font-family: 'Shroob';
+    src: url('shroob.ttf');
 }
 /* .div {
     position: absolute;
