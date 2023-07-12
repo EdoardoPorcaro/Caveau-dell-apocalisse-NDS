@@ -1,0 +1,30 @@
+﻿Data;Versione;Log
+12/07/2023;0.4.1;"Aggiornata la tabella nella pagina ""Titoli"" con i titoli presenti nella collezione alla data di pubblicazione e caricato il file CSV relativo, ora disponibile per lo scaricamento."
+;;"Aggiunte le pagine ""Changelog"" e ""Problemi noti"" e caricato il file CSV del changelog."
+;;"Diversificate le opzioni di contatto nella pagina ""Contatti""."
+;;Leggermente riscritti alcuni testi e corretto qualche errore di battitura.
+;;Migliorata l'accessibilità del sito, con l'aggiunta di testo alternativo per le immagini e perfezionamenti per gli strumenti di lettura ad alta voce.
+06/07/2023;0.4.0;Il sito viene rilasciato in versione beta pubblica e collegato al dominio personale.
+;;Introdotto il supporto al protocollo HTTPS. Il protocollo HTTP rimane il predefinito se si digita l'indirizzo per intero nella barra di navigazione al fine di consentire massima retrocompatibilità.
+;;"Implementato il reindirizzamento a ""mobile.html"" per impedire la consultazione da dispositivi mobili, per i quali il sito non è ancora interamente ottimizzato."
+;;Disabilitati tutti i collegamenti a pagine o documenti ancora non disponibili e, di questi collegamenti, aggiornata la veste grafica.
+;;Aggiunta una pagina un po' particolare...
+05/03/2023;0.3.0;"Unite le pagine ""index.html"" e ""benvenuto.html"" e riscritto il testo della pagina principale."
+;;"Aggiunte le pagine ""Clona"" e ""Contatti""."
+;;Aggiunto l'attributo <title> e la favicon per tutte le pagine.
+;;Sistemate le animazioni e aggiunto il completo supporto alla navigazione da tastiera.
+;;Iniziata su questa pagina la rendicontazione delle modifiche apportate al sito.
+27/02/2023;0.2.2;Inziato lo sviluppo della pagina 404 personalizzata e attivato il reindirizzamento a tale pagina in caso di risorsa non trovata.
+;;Applicate migliorie minori all'esperienza utente.
+22/02/2023;0.2.1;Riorganizzati i file in cartelle per una più ordinata loro gestione.
+;;Aggiunte le animazioni per i menù.
+;;Le scelte stilistiche vengono generalizzate per tutto il sito e cadono, tranne in pochi casi, tutte le definizioni ad hoc per ogni pagina.
+20/02/2023;0.2.0;"Proprietà di stile raggruppate all'interno del file ""stile.css"". Il sito inizia a presentare la veste grafica attuale."
+;;I menù su ogni pagina vengono organizzati con la logica tuttora seguita.
+19/02/2023;0.1.0;Iniziato lo sviluppo del sito.
+;;"Creata la prima versione della pagina principale ""index.html""."
+;;"Aggiunta la pagina ""Titoli""."
+;;
+Caveau dell'apocalisse NDS;;
+Edoardo Porcaro;;
+Ultimo aggiornamento del file: 12/07/2023;;

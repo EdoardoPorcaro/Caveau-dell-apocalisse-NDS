@@ -2,10 +2,10 @@
 // Se il dispositivo è un cellulare, reindirizza alla pagina apposita
 
 // Assegna la pagina del reindirizzamento
-var layout_mobile = "mobile.html";
+var layout_mobile = "/mobile.html";
 
 // Verifica il tipo di dispositivo
 var mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 // Reindirizza alla pagina "mobile.html" se è un dispositivo mobile
-if (mobile) window.location.href = layout_mobile; // 
+if (mobile) window.location.href = layout_mobile;

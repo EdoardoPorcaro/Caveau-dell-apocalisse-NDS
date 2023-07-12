@@ -10,6 +10,7 @@ body {
     padding: 5vh 15vw;
     border: 3px solid limegreen;
 }
+
 /*body::after {
     content: "";
     position: absolute;
@@ -21,6 +22,8 @@ body {
     opacity: 0.5;
     z-index: -1;
 }*/
+
+
 
 /* COLLEGAMENTI */
 a {
@@ -62,6 +65,18 @@ table a:hover, table a:focus-visible {
     }
 }
 
+
+
+/* PUNTI ELENCO */
+ul {
+    list-style-type: square;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+
+
 /* TABELLE */
 table {
     margin: 0 auto;
@@ -86,7 +101,10 @@ table.titoli td:nth-child(3) {
 table.changelog td:nth-child(3) {
     white-space: normal;
     min-width: 200px;
+    text-align: left;
 }
+
+
 
 /*  CLASSI PERSONALIZZATE */
 @font-face {
@@ -97,6 +115,7 @@ table.changelog td:nth-child(3) {
     font-family: 'Shroob';
     src: url('shroob.ttf');
 }
+
 /* .div {
     position: absolute;
     top: 50%;
@@ -105,8 +124,9 @@ table.changelog td:nth-child(3) {
     border: 3px solid limegreen;
     padding: 75px;
     /* box-sizing: border-box; */
-/* background-color: black; 
+    /* background-color: black; 
 } */
+
 .menu {
     text-transform: uppercase;
 }
