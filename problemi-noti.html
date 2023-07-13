@@ -7,12 +7,19 @@
     <link rel="stylesheet" type="text/css" href="stile.css">
     <link rel="icon" href="immagini/icona.ico" type="image/x-icon">
     <script src="mobile.js"></script>
+    <style>
+        span.problema-risolto {
+            color: darkgreen;
+            /*text-decoration: line-through;
+            text-decoration-thickness: 2px;*/
+        }
+    </style>
 </head>
 <body>
     <div class="div">
         <h1>Caveau dell'apocalisse NDS</h1>
         <h2>Problemi noti</h2>
-        <p>Qui è possibile esaminare i problemi noti del sito, presenti e passati. Ciascun problema è descritto a fianco della prima versione in cui è stato riscontrato e, qualora sia già stato risolto, viene anche indicata la versione nella quale vi è stato posto rimedio.</p>
+        <p>Qui è possibile esaminare i problemi noti del sito, presenti e passati. Ciascun problema è descritto a fianco della prima versione in cui è stato riscontrato e, qualora sia già stato risolto, è anche indicata la versione nella quale vi è stato posto rimedio.</p>
         <div class="wrap-tabella">
             <table class="changelog">
                 <thead>
@@ -28,11 +35,9 @@
                         <td>0.4.1</td>
                         <td>
                             <ul>
-                                <li>Risolto nella versione 0.4.1.1 <span style="color: darkgreen; /*text-decoration: line-through; text-decoration-thickness: 2px;*/">Per un motivo ignoto, nella pagina "Titoli" lo script "mobile.js" non è in grado di riconoscere la navigazione da dispositivo mobile e quindi all'utente viene presentata una pagina inguardabile.</span></li>
+                                <li>Risolto nella versione 0.4.1.1 <span class="problema-risolto">Per un motivo ignoto, nella pagina "Titoli" lo script "mobile.js" non è in grado di riconoscere la navigazione da dispositivo mobile e quindi all'utente viene presentata una pagina inguardabile.</span></li>
+                                <li>Risolto nella versione 0.4.1.2 <span class="problema-risolto">È stato impossibile trovare informazioni dettagliate sulla data di pubblicazione italiana del titolo "Chi vuol essere milionario? 2a Edizione". Di conseguenza, al momento, nella tabella viene riportato esclusivamente l'anno di pubblicazione.</span></li>
                                 <li>La tabella nella pagina "Titoli" presenta comportamenti strani durante la navigazione su finestre di dimensioni ridotte, principalmente perché non si attiva la barra di scorrimento orizzontale che ne dovrebbe consentire la consultazione senza problemi.</li>
-                                <li>
-                                    È stato impossibile trovare informazioni dettagliate sulla data di pubblicazione italiana del titolo "Chi vuol essere milionario? 2a Edizione". Di conseguenza, al momento, nella tabella viene riportato esclusivamente l'anno di pubblicazione.
-                                </li>
                             </ul>
                         </td>
                     </tr>
